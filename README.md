@@ -16,6 +16,7 @@ ORGVault is a cross platform desktop application designed to provide organizatio
 - **Audit Trails:** All file accesses, modifications, sharing actions, and synchronization events are logged securely and viewable in-browser.
 - **Ransomware Protection:** Incorporates version-controlled document backup and immutable storage to defend against tampering or deletion.
 - **Lightweight & Easy Deployment:** The application is lightweight and designed for simple deployment in organizational intranets using Rust tooling.
+- **User authentication:** It is done with the help of MAC address for safety & reliability. 
 
 ---
 
@@ -34,4 +35,4 @@ ORGVault is a cross platform desktop application designed to provide organizatio
 - **Data Integrity:** SHA-256 hashes verify file integrity during sync.
 - **Access Control:** Strict role-based access ensures only authorized users can view or modify documents.
 - **Ransomware Defense:** Versioning and immutable backups guard against malicious data loss.
-- **Network Security:** Sync communications are limited to LAN and protected by authentication to prevent unauthorized access.
+- **Network Security:** Sync communications are limited to LAN and protected by MAC address authentication to prevent unauthorized access.
